@@ -18,12 +18,12 @@ använder required för att användaren ska behöva fylla i båda fälten innan 
 <div class="container">
 <form class="form-horizontal" action="login.php" method="post">
 <div class="form-group">
-<h1>Log in</h1>
-	<label for="Username">Username</label>
+<h1>Logga in</h1>
+	<label for="Username">Användarnamn</label>
 	<input type="text" class="form-control" name="username" placeholder="Användarnamn" required><br>
-	<label for="Password">Password</label>
+	<label for="Password">Lösenord</label>
 	<input type="password" class="form-control" name="password" placeholder="Lösenord" required><br><br>
-	<input type="submit" class="btn btn-default" value="LOGIN">
+	<input type="submit" class="btn btn-default" value="Logga in">
 </div>
 </form>
 </div>
