@@ -11,20 +11,21 @@
 <body>
 <br><br><br><br>
 
+<!-- loggin formulär 
+använder required för att användaren ska behöva fylla i båda fälten innan något script körs
+-->
 </div>
 <div class="container">
 <form class="form-horizontal" action="login.php" method="post">
 <div class="form-group">
 <h1>Log in</h1>
 	<label for="Username">Username</label>
-	<input type="text" class="form-control" name="username" placeholder="Enter username" required><br>
+	<input type="text" class="form-control" name="username" placeholder="Användarnamn" required><br>
 	<label for="Password">Password</label>
-	<input type="password" class="form-control" name="password" placeholder="Enter password" required><br><br>
+	<input type="password" class="form-control" name="password" placeholder="Lösenord" required><br><br>
 	<input type="submit" class="btn btn-default" value="LOGIN">
 </div>
 </form>
-</div>
-
 </div>
 </body>
 </html>
