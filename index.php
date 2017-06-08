@@ -16,7 +16,6 @@
 <form class="form-horizontal" action="login.php" method="post">
 <div class="form-group">
 <h1>Log in</h1>
-
 	<label for="Username">Username</label>
 	<input type="text" class="form-control" name="username" placeholder="Enter username" required><br>
 	<label for="Password">Password</label>
