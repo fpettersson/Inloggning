@@ -5,7 +5,7 @@ session_start();
 include 'db.php';
 
 // använder filter_input för att filtrera bort specialtecken som kan användas vid sql injections
-
+// hämtar 'username' och 'password' som användaren skrivit in i formuläret i index.php vilket är namnet på fälten
 $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_SPECIAL_CHARS);
 $password = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_SPECIAL_CHARS);
 
