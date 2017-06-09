@@ -20,7 +20,7 @@ använder required för att användaren ska behöva fylla i båda fälten innan 
 <div class="form-group">
 <h1>Logga in</h1>
 	<label for="Username">Användarnamn</label>
-	<input type="text" class="form-control" name="username" placeholder="Användarnamn" required><br>
+	<input type="text" class="form-control" name="username" placeholder="Användarnamn" ><br>
 	<label for="Password">Lösenord</label>
 	<input type="password" class="form-control" name="password" placeholder="Lösenord" required><br><br>
 	<input type="submit" class="btn btn-default" value="Logga in">
